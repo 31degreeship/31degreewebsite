@@ -207,6 +207,15 @@ footer {
   padding: 15px;
 }
 
+.reviews, .scanner {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.reviews img {
+  margin-top: 20px;
+}
+
 /* MOBILE */
 @media(max-width: 768px) {
 
@@ -254,6 +263,7 @@ footer {
       <a href="#services">Services</a>
       <a href="#team">Team</a>
       <a href="#contact">Contact</a>
+      <a href="#reviews">Reviews</a>
     </nav>
   </div>
 </header>
@@ -332,6 +342,21 @@ footer {
   </div>
 </section>
 
+<section class="reviews" id="reviews">
+  <div class="container">
+    <h2>Customer Reviews</h2>
+    <p>We value your feedback. Scan the QR code or click below to leave a review.</p>
+
+    <img src="./qr.png" alt="QR Code">
+
+    <br><br>
+
+    <a href="https://share.google/xYNsKArG9zzqZ4WdU" target="_blank" class="btn">
+      Leave a Review
+    </a>
+  </div>
+</section>
+
 <section id="contact" class="contact">
   <div class="container">
     <h2>Contact Us</h2>
@@ -365,7 +390,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     document.getElementById("nav").classList.remove("active");
   });
 });
+
+
 </script>
+<script src="https://unpkg.com/html5-qrcode"></script>
 
 </body>
 </html>
