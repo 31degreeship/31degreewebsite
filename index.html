@@ -1,423 +1,905 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Primary Meta Tags -->
+  <title>Ship Supply & Marine Logistics Canada | 31 Degree Ship</title>
+  <meta name="title" content="Ship Supply & Marine Logistics Canada | 31 Degree Ship">
+  <meta name="description" content="31 Degree Ship delivers premier vessel supply, bonded stores, navigation gear, boat chipping, buffing, painting, polishing, keel strength solutions, boat spare parts, & local logistics in Oshawa & worldwide ports.">
+  <meta name="keywords" content="Ship Supply Canada, Marine Logistics, Bonded Stores, Vessel Provisions, Navigation Equipment, Boat Chipping, Boat Buffing, Boat Painting, Boat Polishing, Keel Strength, Boat Spare Parts, Liquor Delivery Oshawa, 31 Degree Ship">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yourdomain.com/">
 
-<!-- Favicon -->
-<link rel="icon" type="image/png" href="./favicon.png">
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <meta property="og:title" content="31 Degree Ship | Marine Logistics & Vessel Supplies">
+  <meta property="og:description" content="Reliable global maritime shipping support, bonded stores, deck maintenance, keel strengthening, spare parts, and local beverage logistics based in Oshawa, Canada.">
+  <meta property="og:image" content="https://yourdomain.com/hero-1.jpg">
 
-<!-- SEO -->
-<title>Ship Supply Canada | Marine Shipping & Logistics | 31 Degree Ship</title>
-<meta name="description" content="Canada-based ship supply company offering marine shipping, bonded stores, navigation equipment, and global maritime logistics services. Reliable vessel support worldwide.">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://yourdomain.com/">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://yourdomain.com/">
+  <meta name="twitter:title" content="31 Degree Ship | Marine Logistics & Vessel Supplies">
+  <meta name="twitter:description" content="Reliable global maritime shipping support, bonded stores, deck maintenance, keel strengthening, spare parts, and local beverage logistics based in Oshawa, Canada.">
+  <meta name="twitter:image" content="https://yourdomain.com/hero-1.jpg">
 
-<!-- Google Verification -->
-<meta name="google-site-verification" content="2UOoiHNFMmHdiWmiPo3QmAQDriJiaG6J7W61HB7Tf4I" />
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="2UOoiHNFMmHdiWmiPort3QmAQDriJiaG6J7W61HB7Tf4I" />
 
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./favicon.png">
 
-body {
-  line-height: 1.6;
-}
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-}
-
-/* HEADER */
-header {
-  background: #000;
-  color: white;
-  padding: 15px 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  height: 50px;
-}
-
-/* NAV */
-nav {
-  display: flex;
-}
-
-nav a {
-  color: white;
-  margin-left: 20px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-nav a:hover {
-  color: #ff6600;
-}
-
-/* MOBILE MENU */
-.menu-toggle {
-  display: none;
-  font-size: 1.8rem;
-  cursor: pointer;
-}
-
-/* HERO */
-.hero {
-  background: url('./hero-1.jpg') no-repeat center/cover;
-  color: #fff;
-  text-align: center;
-  padding: 120px 20px;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-}
-
-.hero p {
-  font-size: 1.3rem;
-  margin-top: 10px;
-}
-
-/* BUTTON */
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 25px;
-  background: #ff6600;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-/* SERVICES */
-.services {
-  padding: 60px 0;
-  text-align: center;
-}
-
-.services p {
-  max-width: 800px;
-  margin: 15px auto 30px;
-  color: #555;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-}
-
-.card {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  overflow: hidden;
-  background: #fff;
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.card-content {
-  padding: 20px;
-}
-
-.card-content p {
-  font-size: 0.9rem;
-  color: #555;
-  margin-top: 10px;
-}
-
-/* TEAM */
-.team {
-  background: #f4f4f4;
-  padding: 60px 0;
-  text-align: center;
-}
-
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
-}
-
-.team-card {
-  background: white;
-  border-radius: 10px;
-  padding: 20px;
-}
-
-.team-card img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 15px;
-}
-
-/* CONTACT */
-.contact {
-  padding: 60px 0;
-  background: #f9f9f9;
-  text-align: center;
-}
-
-.contact-info {
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
-  max-width: 400px;
-  margin: auto;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.contact-info p {
-  margin: 15px 0;
-}
-
-/* FOOTER */
-footer {
-  background: #000;
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
-
-.reviews, .scanner {
-  padding: 60px 0;
-  text-align: center;
-}
-
-.reviews img {
-  margin-top: 20px;
-}
-
-/* MOBILE */
-@media(max-width: 768px) {
-  .menu-toggle {
-    display: block;
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "31 Degree Ship",
+    "image": "https://yourdomain.com/logo.png",
+    "@id": "https://yourdomain.com/#organization",
+    "url": "https://yourdomain.com/",
+    "telephone": "+1-905-244-0013",
+    "email": "31degreeship@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oshawa",
+      "addressRegion": "ON",
+      "addressCountry": "CA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8971,
+      "longitude": -78.8658
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Marine & Logistics Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Boat Chipping, Buffing, Painting & Polishing"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Boat Spare Parts"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Keel Strength Solutions"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Bond Store Provisioning"
+          }
+        }
+      ]
+    },
+    "sameAs": [
+      "https://share.google/xYNsKArG9zzqZ4WdU"
+    ]
   }
+  </script>
 
-  nav {
-    position: absolute;
-    top: 80px;
-    right: 0;
-    background: #000;
-    flex-direction: column;
-    width: 200px;
-    display: none;
-  }
+  <style>
+    :root {
+      --primary: #0B192C;
+      --secondary: #1E3E62;
+      --accent: #FF6500;
+      --accent-hover: #E05500;
+      --light-bg: #F4F6F9;
+      --text-dark: #1E293B;
+      --text-muted: #64748B;
+      --white: #FFFFFF;
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-  nav a {
-    padding: 10px;
-    margin: 0;
-    border-top: 1px solid #fff;
-  }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
 
-  nav.active {
-    display: flex;
-  }
+    html {
+      scroll-behavior: smooth;
+    }
 
-  .hero h1 {
-    font-size: 1.8rem;
-  }
-}
-</style>
+    body {
+      line-height: 1.6;
+      color: var(--text-dark);
+      background-color: var(--white);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1240px;
+      margin: 0 auto;
+    }
+
+    /* TOP BAR */
+    .top-bar {
+      background-color: var(--primary);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .top-bar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .top-bar-contact a {
+      color: var(--white);
+      text-decoration: none;
+      margin-left: 15px;
+      transition: var(--transition);
+    }
+
+    .top-bar-contact a:hover {
+      color: var(--accent);
+    }
+
+    /* HEADER & NAV */
+    header {
+      background: var(--primary);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      z-index: 1001; /* Ensure logo stays above fullscreen overlay if open */
+    }
+
+    .logo {
+      height: 48px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    nav a {
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: var(--transition);
+      position: relative;
+    }
+
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -4px;
+      left: 0;
+      background-color: var(--accent);
+      transition: var(--transition);
+    }
+
+    nav a:hover::after, nav a:focus::after {
+      width: 100%;
+    }
+
+    nav a:hover, nav a:focus {
+      color: var(--accent);
+    }
+
+    .menu-toggle {
+      display: none;
+      font-size: 1.8rem;
+      background: none;
+      border: none;
+      color: var(--white);
+      cursor: pointer;
+      z-index: 1001; /* Ensure toggle stays above fullscreen overlay */
+    }
+
+    /* HERO SECTION */
+    .hero {
+      background: linear-gradient(135deg, rgba(11, 25, 44, 0.88), rgba(30, 62, 98, 0.82)), url('./hero-1.jpg') no-repeat center center/cover;
+      color: var(--white);
+      padding: 140px 0 100px;
+      text-align: center;
+    }
+
+    .hero-content {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(255, 101, 0, 0.15);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 6px 16px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3.5rem);
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #CBD5E1;
+      margin-bottom: 35px;
+    }
+
+    .hero-btns {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      border-radius: 6px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background-color: var(--accent);
+      color: var(--white);
+    }
+
+    .btn-primary:hover, .btn-primary:focus {
+      background-color: var(--accent-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(255, 101, 0, 0.3);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--white);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    /* SERVICES SECTIONS */
+    .services {
+      padding: 100px 0;
+      background-color: var(--white);
+    }
+
+    .other-services {
+      background-color: var(--light-bg);
+      padding: 100px 0;
+      border-top: 1px solid #E2E8F0;
+      border-bottom: 1px solid #E2E8F0;
+    }
+
+    .section-title {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 60px;
+    }
+
+    .section-title h2 {
+      font-size: 2.2rem;
+      color: var(--primary);
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+
+    .section-title p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid #E2E8F0;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.07);
+      border-color: rgba(255, 101, 0, 0.3);
+    }
+
+    .card-img-wrapper {
+      position: relative;
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: var(--transition);
+    }
+
+    .card:hover img {
+      transform: scale(1.05);
+    }
+
+    .card-content {
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .card-content h3 {
+      font-size: 1.3rem;
+      color: var(--primary);
+      margin-bottom: 12px;
+    }
+
+    .card-content p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* TEAM SECTION */
+    .team {
+      background-color: var(--white);
+      padding: 100px 0;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .team-card {
+      background: var(--light-bg);
+      border-radius: 12px;
+      padding: 35px 25px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+      transition: var(--transition);
+      border: 1px solid #E2E8F0;
+    }
+
+    .team-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .team-card img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid var(--white);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .team-card h3 {
+      font-size: 1.25rem;
+      color: var(--primary);
+      margin-bottom: 4px;
+    }
+
+    .role {
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    .team-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* REVIEWS SECTION */
+    .reviews {
+      padding: 100px 0;
+      text-align: center;
+      background: var(--light-bg);
+      border-top: 1px solid #E2E8F0;
+    }
+
+    .review-box {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px;
+      border-radius: 16px;
+      background: var(--white);
+      border: 1px solid #E2E8F0;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    }
+
+    .review-box img {
+      width: 140px;
+      height: auto;
+      margin: 20px 0;
+    }
+
+    /* CONTACT SECTION */
+    .contact {
+      padding: 100px 0;
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    .contact .section-title h2 {
+      color: var(--white);
+    }
+
+    .contact .section-title p {
+      color: #94A3B8;
+    }
+
+    .contact-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .contact-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+    }
+
+    .contact-card h3 {
+      margin-bottom: 20px;
+      font-size: 1.3rem;
+      color: var(--accent);
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .contact-item span {
+      font-size: 1.2rem;
+    }
+
+    .contact-item a {
+      color: var(--white);
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .contact-item a:hover {
+      color: var(--accent);
+    }
+
+    /* FOOTER */
+    footer {
+      background: #060E1A;
+      color: var(--text-muted);
+      padding: 30px 0;
+      text-align: center;
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    /* RESPONSIVE STYLES */
+    @media(max-width: 992px) {
+      .top-bar {
+        display: none;
+      }
+    }
+
+    @media(max-width: 768px) {
+      .menu-toggle {
+        display: block;
+      }
+
+      /* Fullscreen Centered Mobile Navigation Drawer */
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(11, 25, 44, 0.98);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        display: none;
+        z-index: 1000;
+        backdrop-filter: blur(8px);
+      }
+
+      nav.active {
+        display: flex;
+      }
+
+      nav a {
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+
+      .hero {
+        padding: 90px 0 60px;
+      }
+
+      .services, .other-services, .team, .reviews, .contact {
+        padding: 60px 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
-  <div class="container">
-    <img src="./logo.png" alt="31 Degree Ship Logo" class="logo">
-
-    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-
-    <nav id="nav">
-      <a href="#home">Home</a>
-      <a href="#services">Services</a>
-      <a href="#team">Team</a>
-      <a href="#contact">Contact</a>
-      <a href="#reviews">Reviews</a>
-    </nav>
-  </div>
-</header>
-
-<section id="home" class="hero">
-  <div class="container">
-    <h1>Global Marine Shipping & Liquor Logisitics</h1>
-    <p>Reliable maritime logistics and ship supply services worldwide.</p>
-    <a href="#services" class="btn">Explore Services</a>
-  </div>
-</section>
-<!-- updated the service -->
-<section id="services" class="services container">
-  <h2>Marine Shipping Supply & Logistic Services</h2>
-
-  <p>
-    At 31 Degree Ship, we are a Canada-based marine shipping and ship supply company delivering reliable solutions to vessels worldwide. Specializing in bonded stores, marine groceries, navigation equipment, and cabin supplies, we support efficient maritime operations across major global ports. With strong logistics expertise, we ensure timely delivery, competitive pricing, and high-quality products.
-  </p>
-
-  <div class="grid">
-    <div class="card">
-      <img src="./drinks.jpg" alt="Marine bonded store supplies">
-      <div class="card-content">
-        <h3>Bond Store</h3>
-        <p>Provisioning and technical supplies for vessels globally.</p>
+  <!-- TOP INFORMATION BAR -->
+  <aside class="top-bar">
+    <div class="container">
+      <div>📍 Serving Canada & Ports Worldwide | Based in Oshawa, ON</div>
+      <div class="top-bar-contact">
+        📞 <a href="tel:+19052440013">+1 (905) 244-0013</a>
+        📧 <a href="mailto:31degreeship@gmail.com">31degreeship@gmail.com</a>
       </div>
     </div>
+  </aside>
 
-    <div class="card">
-      <img src="./navigation.png" alt="Marine navigation equipment">
-      <div class="card-content">
-        <h3>Navigation Equipment</h3>
-        <p>Advanced systems for safe and compliant maritime operations.</p>
-      </div>
+  <!-- HEADER NAVIGATION -->
+  <header>
+    <div class="container">
+      <a href="#home" class="logo-container" aria-label="31 Degree Ship Homepage">
+        <img src="./logo.png" alt="31 Degree Ship Logo" class="logo">
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle navigation menu" onclick="toggleMenu()">☰</button>
+
+      <nav id="nav">
+        <a href="#home" onclick="toggleMenu()">Home</a>
+        <a href="#core-services" onclick="toggleMenu()">Services</a>
+        <a href="#team" onclick="toggleMenu()">Leadership</a>
+        <a href="#reviews" onclick="toggleMenu()">Reviews</a>
+        <a href="#contact" onclick="toggleMenu()">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="card">
-      <img src="./deck-items.png" alt="Ship cabin and deck supplies">
-      <div class="card-content">
-        <h3>Cabin Stores</h3>
-        <p>Onboard essentials for crew comfort and efficiency.</p>
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <span class="badge">Comprehensive Marine Logistics</span>
+        <h1>Global Vessel Supplies & Local Logistics Solutions</h1>
+        <p>From bonded provisions, navigation equipment, and hull maintenance to commercial liquor distribution — trusted maritime solutions scaled for global compliance.</p>
+        <div class="hero-btns">
+          <a href="#core-services" class="btn btn-primary">Explore Services</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
       </div>
+    </section>
+
+    <!-- CORE MARINE & MAINTENANCE SERVICES SECTION -->
+    <section id="core-services" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Core Marine & Maintenance Services</h2>
+          <p>Specialized vessel structural maintenance, protective care, and critical hardware solutions.</p>
+        </div>
+
+        <div class="grid">
+          <!-- Service Card: Chipping, Buffing, Painting & Polishing -->
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./chipping.jpeg" alt="Boat chipping, buffing, painting and polishing work">
+            </div>
+            <div class="card-content">
+              <h3>Chipping, Buffing, Painting & Polishing</h3>
+              <p>Full-scope vessel restoration and hull protection. High-grade surface preparation, chipping rust, buffing, painting, and polishing for long-term corrosion prevention.</p>
+            </div>
+          </article>
+
+          <!-- Service Card: Boat Spare Parts -->
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./spareparts.jpeg" alt="Boat spare parts and hardware supplies">
+            </div>
+            <div class="card-content">
+              <h3>Boat Spare Parts</h3>
+              <p>Reliable sourcing and rapid delivery of essential marine hardware, mechanical components, and certified replacement parts to keep vessels operational.</p>
+            </div>
+          </article>
+
+          <!-- Service Card: Keel Strength -->
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./keel.png" alt="Keel strength and structural vessel reinforcement">
+            </div>
+            <div class="card-content">
+              <h3>Keel Strength</h3>
+              <p>Specialized structural reinforcement and engineering support to maintain keel integrity, stability, and high performance under rigorous maritime conditions.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- OTHER SERVICES SECTION -->
+    <section id="other-services" class="other-services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Other Services</h2>
+          <p>Additional global supply chain solutions, bonded provisions, safety equipment, and beverage logistics.</p>
+        </div>
+
+        <div class="grid">
+          <!-- Service Card: Bonded Stores -->
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./drinks.jpg" alt="Marine bonded store supplies and provisions">
+            </div>
+            <div class="card-content">
+              <h3>Bond Store Provisions</h3>
+              <p>Customs-bonded stores, high-grade provisions, and technical store items for international commercial vessels and maritime fleets.</p>
+            </div>
+          </article>
+
+          <!-- Service Card: Navigation Equipment -->
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./navigation.png" alt="Marine navigation equipment and electronics">
+            </div>
+            <div class="card-content">
+              <h3>Navigation Equipment</h3>
+              <p>Certified marine electronics, navigation aids, and essential onboard safety equipment designed for full regulatory compliance at sea.</p>
+            </div>
+          </article>
+
+          <!-- Service Card: Cabin Stores -->
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./deck-items.png" alt="Ship cabin and deck supply stores">
+            </div>
+            <div class="card-content">
+              <h3>Cabin Stores & Consumables</h3>
+              <p>Complete range of cabin supplies, crew comfort amenities, cleaning agents, and deck consumables for efficient ship management.</p>
+            </div>
+          </article>
+
+          <!-- Service Card: Wholesale Liquor Supply -->
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="liquor1.jpeg" alt="Liquor supply and logistics delivery">
+            </div>
+            <div class="card-content">
+              <h3>Commercial Liquor Supply</h3>
+              <p>Scheduled and rapid beverage supply solutions. Full logistics support catered to local maritime needs and commercial operations.</p>
+            </div>
+          </article>
+
+          <!-- Service Card: Bars and Clubs -->
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="liquor2.jpeg" alt="Bar and club inventory delivery services">
+            </div>
+            <div class="card-content">
+              <h3>Bar & Venue Logistics</h3>
+              <p>Direct inventory supply and fast-turnaround stock delivery assisting local bars, night clubs, and event venues in maintaining continuous stock.</p>
+            </div>
+          </article>
+
+          <!-- Service Card: Doorstep Party Delivery -->
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="houseParty.jpeg" alt="Event and party beverage express delivery">
+            </div>
+            <div class="card-content">
+              <h3>Express Event Delivery</h3>
+              <p>Fast, reliable direct delivery of beverages and essential event supplies for private gatherings and house parties.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section id="team" class="team">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Leadership Team</h2>
+          <p>Backed by decades of maritime experience, finance, and port management expertise.</p>
+        </div>
+
+        <div class="team-grid">
+          <div class="team-card">
+            <img src="./gagan.jpg" alt="Gagan Sarwara - Chief Executive Officer">
+            <h3>Gagan Sarwara</h3>
+            <div class="role">Chief Executive Officer</div>
+            <p>Brings 12+ years of direct maritime experience, managing global supply lines to minimize vessel turnaround time in ports worldwide.</p>
+          </div>
+
+          <div class="team-card">
+            <img src="./navjot.jpeg" alt="Navjot Sarwara - Operations Manager">
+            <h3>Navjot Sarwara</h3>
+            <div class="role">Operations Manager</div>
+            <p>Directs shore-to-vessel communications, guaranteeing quick order processing and flexible real-time order adjustments for docked vessels.</p>
+          </div>
+
+          <div class="team-card">
+            <img src="./preet.jpeg" alt="Preetinder - Director of Logistics">
+            <h3>Preetinder</h3>
+            <div class="role">Logistics Director</div>
+            <p>Coordinates maritime finance with port logistics, driving cost-effective sourcing and uninterrupted supplies across changing market conditions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+    <section id="reviews" class="reviews">
+      <div class="container">
+        <div class="section-title">
+          <h2>Client Reviews</h2>
+          <p>We pride ourselves on reliability and service excellence. Hear what our partners say.</p>
+        </div>
+
+        <div class="review-box">
+          <p><em>"Prompt delivery and high quality bond store supplies. 31 Degree Ship keeps our operations running without delays!"</em></p>
+          <img src="./qr.png" alt="Scan QR code for Google reviews">
+          <br>
+          <a href="https://share.google/xYNsKArG9zzqZ4WdU" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Leave a Google Review
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Us</h2>
+          <p>Available for 24/7 port support and supply logistics inquiries.</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-card">
+            <h3>Get In Touch</h3>
+            <div class="contact-item">
+              <span>📞</span>
+              <div>
+                <strong>Phone:</strong><br>
+                <a href="tel:+19052440013">+1 (905) 244-0013</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span>📧</span>
+              <div>
+                <strong>Email:</strong><br>
+                <a href="mailto:31degreeship@gmail.com">31degreeship@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span>📍</span>
+              <div>
+                <strong>Address:</strong><br>
+                Oshawa, Ontario, Canada
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h3>Port Operations</h3>
+            <p>We operate across Canadian ports and deliver globally tailored marine logistics support. Reach out for quotes or emergency supplies.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 31 Degree Ship. All rights reserved. Built for global performance and accessibility.</p>
     </div>
-  <div class="card">
-      <img src="./deck-items.png" alt="Ship cabin and deck supplies">
-      <div class="card-content">
-        <h3>Cabin Stores</h3>
-        <p>Onboard essentials for crew comfort and efficiency.</p>
-      </div>
-    </div>
+  </footer>
 
-    <div class="card">
-      <img src="liquor1.jpeg" alt="Marine grocery supplies">
-      <div class="card-content">
-        <h3>Liqour Supply</h3>
-        <p>Fast, reliable liquor delivery right to your door. Order your 
-          favorite drinks anytime and enjoy quick delivery with great service.</p>
-      </div>
-    </div>
-     <div class="card">
-      <img src="liquor2.jpeg" alt="Marine grocery supplies">
-      <div class="card-content">
-        <h3>Assisting Bars and Clubs</h3>
-        <p>Assisting bars and clubs with fast, reliable liquor delivery and supply services.</p>
-      </div>
-    </div>
-     <div class="card">
-      <img src="houseParty.jpeg" alt="Marine grocery supplies">
-      <div class="card-content">
-        <h3>House Party Delivery</h3>
-        <p>House party delivery made easy — drinks, snacks, and essentials delivered fast to your doorstep.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="team" class="team">
-  <div class="container">
-    <h2>Our Leadership</h2>
-
-    <div class="team-grid">
-      <div class="team-card">
-        <img src="./gagan.jpg" alt="CEO Gagan Sarwara">
-        <h3>Gagan Sarwara</h3>
-        <p><strong>CEO</strong></p>
-        <p>With 12+ years of maritime experience, 31 Degree Ship delivers reliable supply solutions that minimize downtime.</p>
-      </div>
-
-      <div class="team-card">
-        <img src="./navjot.jpeg" alt="Operations Manager Navjot Sarwara">
-        <h3>Navjot Sarwara</h3>
-        <p><strong>Operations Manager</strong></p>
-        <p>He handles vessel-to-shore communication, ensuring fast updates and quick order changes so operations run smoothly and vessels stay fully supported.</p>
-      </div>
-
-      <div class="team-card">
-        <img src="./preet.jpeg" alt="Logistics Director Preetinder">
-        <h3>Preetinder</h3>
-        <p><strong>Logistics Director</strong></p>
-        <p>He connects finance with maritime operations, ensuring cost-efficient sourcing, steady cash flow, and reliable vessel support-even in changing markets.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-<section class="reviews" id="reviews">
-  <div class="container">
-    <h2>Customer Reviews</h2>
-    <p>We value your feedback. Scan or click below to leave a review.</p>
-
-    <img src="./qr.png" alt="QR code for Google review">
-
-    <br><br>
-
-    <a href="https://share.google/xYNsKArG9zzqZ4WdU" target="_blank" class="btn">
-      Leave a Review
-    </a>
-  </div>
-</section>
-
-
-
-<section id="contact" class="contact">
-  <div class="container">
-    <h2>Contact Us</h2>
-
-    <div class="contact-info">
-      <p><strong>📞 Phone:</strong> +1 (905) 244-0013</p>
-      <p><strong>📧 Email:</strong> 31degreeship@gmail.com</p>
-      <p><strong>📍 Address:</strong> Oshawa, Canada</p>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 31 Degree Ship. All rights reserved.</p>
-</footer>
-
-<script>
-function toggleMenu() {
-  document.getElementById("nav").classList.toggle("active");
-}
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener("click", function(e) {
-    const target = document.querySelector(this.getAttribute("href"));
-    if(target){
-      e.preventDefault();
-      target.scrollIntoView({ behavior: "smooth" });
+  <!-- JAVASCRIPT -->
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav").classList.toggle("active");
     }
-    document.getElementById("nav").classList.remove("active");
-  });
-});
-</script>
+
+    // Smooth scroll and auto-close mobile drawer on link click
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function(e) {
+        const target = document.querySelector(this.getAttribute("href"));
+        if(target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: "smooth" });
+          document.getElementById("nav").classList.remove("active");
+        }
+      });
+    });
+  </script>
 
 </body>
 </html>
